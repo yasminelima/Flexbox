@@ -29,7 +29,8 @@ section {
     height: 300px;
     margin-bottom: 10px;
     display: flex;
-    
+    text-align: center;
+        
     justify-content: space-around; /*horizontal*/
     align-items: center; /*vertical*/
 
@@ -40,19 +41,22 @@ section {
     width: 300px;
     display: block;
     text-align: center;
+    font-weight: bolder;
 }
 
 .item {
     border: 2px solid red;
     height: 50px;
     width: 50px;
+    padding-top: 25px;
 }
 
 .box {
     border: 2px solid blue;
     height: 50px;
-    margin: 30px;
+    margin: 25px;
     flex: 1 1 50px;
+    padding-top: 25px;
     /*grow, shrink, bases*/
 }
 
